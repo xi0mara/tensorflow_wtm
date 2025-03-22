@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación de Imágenes con TensorFlow.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-text">
+            <img src="https://i.ibb.co/PGxbbLVP/Imagen1.png" alt="Logo">
+            <h1>¡Bienvenidos!</h1>
+        </div>
+    </header>
+
+    <main>
+        <h1>Clasificación de Imágenes con TensorFlow.js</h1>
+        <input type="file" id="imageInput" accept="image/*">
+        <br>
+        <img id="preview" width="300" alt="">
+        <p id="result">Sube una imagen y la IA la clasificará.</p>
+        <div id="loading" style="display:none;">Cargando modelo, por favor espera...</div>
+    </main>
+
+    <footer>
+        sunjuywan ruwasja ❤️ [Quechua] - Hecho con el corazón
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
